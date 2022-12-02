@@ -46,12 +46,12 @@ public class Test_Runner_Adactin extends Baseclass_P {
 		//checkin
 		WebElement checkin = driver.findElement(By.xpath("//input[@name='datepick_in']"));
 		checkin.clear();
-		checkin.sendKeys("20/08/2022");
+		checkin.sendKeys("20/12/2022");
 		
 		//checkout
 		WebElement checkout = driver.findElement(By.name("datepick_out"));
 		checkout.clear();
-		checkout.sendKeys("22/08/2022");
+		checkout.sendKeys("22/012/2022");
 		
 		//audult
 		WebElement audult = driver.findElement(By.xpath("//select[@name='adult_room']"));
